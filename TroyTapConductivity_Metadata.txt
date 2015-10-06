@@ -1,0 +1,232 @@
+Metadata for the Troy Tap Water Conductivity Data Set 
+
+"Modified" Direct Interchange Format (DIF)
+Did not have access to docBUILDER
+General format fields and controlled keywords were adapted from DIF
+
+***NOTE: This data set was created as part of an assignment for a
+Data Science course at Rensselaer Polytechnic Institute. This is 
+why docBUILDER was not used to create this metadata; it was an 
+educational exercise. There is no intent on the data set creator's 
+behalf for the Global Change Master Directory to review this metadata 
+for formal publishing.***
+
+-------------------------------------------------------------
+
+FIELDS FOLLOWING DIF METADATA STANDARD
+
+<Entry_ID> 
+	N/A (not formally published)
+
+<Entry_Title> 
+	Troy Tap Water Conductivity Data Set
+
+<Parameters> 
+	Category: EARTH SCIENCE
+	Topic: Terrestrial Hydrosphere
+	Term: Water Quality/Water Chemistry
+	Variable Level 1: CONDUCTIVITY
+
+<ISO_Topic_Category>
+	Environment
+
+<Data_Center> 
+	Short Name: RPI/CS
+	Long Name: Computer Science Department, Rensselaer Polytechnic Institute
+	Data Center URL: http://www.cs.rpi.edu
+	Data Set ID: not assigned
+
+<Summary> 
+	This data set contains 131 measurements of tap water conductivity in 
+	microsiemens/cm from plumbing fixtures throughout Troy, New York. The
+	measurements were mainly made on the Rensselaer and Sage campuses due 
+	to ease of access. Along with the conductivity measured at each fixture,
+	the temperature in degrees celsius, location description of fixture, 
+	fixture type (sink or drinking fountain), year of building construction,
+	and time (24-hour)and date (mm/dd/yyyy) of each measurement is included. 
+	The geoJSON consists of georeferenced points using the WGS 84 coordinate 
+	refrence system. 
+
+	The data was collected with the intent to examine potential differences in 
+	tap water throughout Troy, NY as a result of the tap water traveling from 
+	the John P. Buckley Water Treatment Plant, through the distribution system, 
+	and into Troy buildings and homes (i.e. if the treated water came into contact 
+	with lead pipes and lead ions were added to solution). Using this data set, an 
+	investigator could examine correlations between conductivity measurements, year 
+	of building construction, geographic location, etc. 
+
+	General Procedure for Data Collection:
+	1. Locate fixture
+	2. Write ID of sample in physical notebook (1,2,3,...)
+	3. Obtain GPS coordinates with gvSIG Mini phone app and record (lat, long)
+		This approach to collecting GPs coordinates was abandoned - phone
+		was proven to be unreliable. GPS coordinates were closely 
+		approximated post-collection.
+	4. Record type of fixture, location description, year of building construction 
+	   (if known), time + date of collection (from phone clock/calendar)
+	5. Turn on tap (cold) and rinse probe and container with tap water
+	6. Collect water in plastic sample container
+	7. Turn on probe and put probe in sample
+	8. Wait until probe reading stabilizes (approx. 30 sec) and record values for 
+	   both temperature and conductivity
+	9. Pour sample down sink and find next fixture
+
+	An ORION Conductivity Meter Model 135 was used to make the conductivity and
+	temperature measurements. A built in temperature function (nLF) corrected the
+	conductivity measurement display to a 25 degrees celsius reference temprature.
+	Specifications for probe can be found in the later "Additional Information" 
+	section in this file.
+
+<Metadata Name> 
+	N/A (docBUILDER field)
+
+<Metadata Version>
+	N/A (docBUILDER field)
+
+<Data_Set_Citation>
+	Dataset Creator: Alexandra Evans
+	Dataset Title: Troy Tap Water Conductivity Data Set
+	Dataset Release Date: October 5, 2015
+	Version: 1.0
+	Online Resource: https://github.com/evansa11
+
+<Personnel>
+	Investigator, Technical Contact, and DIF Author: Alexandra Evans 
+	Email: evansa2 at rpi.edu
+
+<Related_URL> 
+	https://github.com/evansa11
+
+<Sensor_Name> 
+	Instrument Category: In Situ/Laboratory Instruments
+	Instrument Class: Conductivity Sensors
+	Instrument Type: CONDUCTIVITY METERS
+	Instrument Owner: RPI Earth and Environmental Sciences Department
+
+<Platform>
+	Platform Category: In Situ Land-Based Platforms
+
+<Temporal_Coverage> 
+	Start Date: September 20, 2015
+	Stop Date: September 22, 2015
+
+<Spatial_Coverage> 
+	Southernmost Latitude: 42.72678
+	Northernmost Latitude: 42.73883
+	Westernmost Latitude: -73.69469
+	Easternmost Latitude: -73.66987
+
+<Location>
+	Continent: NORTH AMERICA
+	UNITED STATES OF AMERICA
+	NEW YORK
+
+<Quality>
+	The measurements in this data set were conducted in a manner that is not
+	compliant with EPA quality assurance standards. For example, only one 
+	measurement was taken at each fixture. Repeated measurements would need 
+	to be made to improve the quality of the data set. 
+
+<Use_Constraints>
+	The measurements that comprise this data set are not compliant to EPA 
+	quality assurance standards and should not be used for any serious 
+	investigation into tap water quality in Troy, NY.  The data set should 
+	not be used for anything further than to satisfy the casual curiosity 
+	of its potential users. Should it be discovered that there are concerning 
+	measurements of conductivity in the data set, a more legitimate investigation 
+	by the appropriate, qualified, and certified officials should be conducted.
+	
+<Distribution>
+	Distribution Media: Digital
+	Distribution Size: 70.2 KB
+	Distribution Format: GeoJSON
+	Fees: none
+
+<Data_Set_Language> 
+	English
+
+<Data_Set_Progress> 
+	Complete
+
+<Reference> 
+	Academy Hall. (n.d.). Retrieved from http://www.lib.rpi.edu/dept/library
+		/html/Archives/buildings/academy_hall.html.
+	2209 14th St, Troy, NY 12180. (n.d.). Retrieved from http://www.zillow.c
+		om/homedetails/2209-14th-St-Troy-NY-12180/32236160_zpid/.
+	2236 13th St, Troy, NY 12180. (n.d.). Retrieved from http://www.trulia.c
+		om/homes/New_York/Troy/sold/1000210750-2236-13th-St-Troy-NY-1218
+		0.
+	Curtis R. Priem Experimental Media and Performing Arts Center (EMPAC). (
+		2010, December 17). Retrieved from http://rpi.edu/tour/empac/ind
+		ex.html.
+	Gurley Hall. (2006, November). Retrieved from http://hcap.artstor.org/cgi
+		-bin/library?a=d&d=p1713.
+	History of Rensselaer Polytechnic Institute. (n.d.). Retrieved from 
+		Wikipedia: https://en.wikipedia.org/wiki/History_of_Rensselaer_Po
+		lytechnic_Institute.
+	Julia Howard Bush Memorial Center. (2006, November). Retrieved from http:
+		//hcap.artstor.org/cgi-bin/library?a=d&d=p1711.
+	The Lorraine Walker Education Building at Russel Sage College [graphic]/
+		photographed by Aggie Stillman. (n.d.). Retrieved from http://184
+		.168.105.185/archivegrid/collection/data/70161983.
+	Materials Research Center (MRC). (2010, December 17). Retrieved from http
+		s://www.rpi.edu/tour/mrc/index.html.
+	Quadrangle Residence Hall Complex. (2010, December 17). Retrieved from ht
+		tp://rpi.edu/tour/quad/index.html.
+	Rensselaer Polytechnic Institute. (n.d.). Retrieved October 5, 2015 from 
+		Wikipedia: https://en.wikipedia.org/wiki/Rensselaer_Polytechnic_
+		Institute.
+	The Russel Sage College Library [graphic]. (n.d.). Retrieved from https:/
+		/beta.worldcat.org/archivegrid/collection/data/64636900.
+	Russel Sage Hall. (2006, November). Retrieved from http://hcap.artstor.or
+		g/cgi-bin/library?a=d&d=p1712.
+	Science Hall at Russel Sage College [graphic]. (n.d.). Retrieved from htt
+		ps://beta.worldcat.org/archivegrid/collection/data/68624364.
+	The Times Record from Troy, New York Page 22. (1960, October 10). 
+		Retrieved from www.newspapers.com/newspage/57939310/.
+	Troy Treasures: Brownstone Renovation - A Work in Progress at No. 13
+		First Street. (2014, April 27). Retrieved from http://www.troyrec
+		ord.com/opinion/20140427/troy-treasures-brownstone-renovation-x20
+		14-a-work-in-progress-at-no-13-first-street.
+	Voorhees Computing Center (VCC). (2010, December 17). Retrieved from http
+		://rpi.edu/tour/vcc/.
+	Walker Laboratory. (2010, December 17). Retrieved from http://rpi.edu/tou
+		r/walker/index.html.
+
+<DIF_Creation_Date>
+	October 10, 2015
+
+--------------------------------------------------------------
+
+Additional Information 
+(Not following DIF standard)
+
+Information about Investigator, Technical Contact, and DIF Author:
+	Alexandra Evans is a fifth year co-terminal student at Rensselaer
+	Polytechnic Institute in the Earth and Environmental Sciences Department
+	studying Geology. She was taught how to properly use the ORION Conductivity
+	Meter Model 135 by her research advisor prior to making the measurements in
+	this data set. 
+
+Provenance of Data Set:
+	Data set was originally written on paper in ink in a composition notebook. The
+	information was then transcribed into Microsoft Excel and saved as a CSV file.
+	The GPS coordinates of the individual samples were closely approximated using
+	the location descriptions recorded in the notebook. The sample locations were
+	marked as vector points in QGIS using an OpenStreetMap layer as reference. The
+	vector points were then saved as an ESRI shapefile. The CSV was imported into
+	QGIS and joined with the ESRI shapefile. The new shapefile with the updated
+	attribute table was then saved and exported as a GeoSJON. 
+
+ORION Conductivity Meter Model 135 Specifications:
+	Temperature Resolution: 0.1 degree C
+	Temperature Range: -5 to 99.9 degrees C
+	Temperature Compensation: Compensation of Natural Water (nLF)
+	nLF Accuracy: 0.5 percent of Measurement Value +/- 1 Digit for Test Sample
+		temperature -5 C to +99.9 C
+	Temperature Accuracy: 0.1 C +/- Digit at Operating Temperature (-10 C to +55 C)
+	Conductivity Range Mode: 0 to 1999 microsiemens/cm
+	Resolution of Conductivity Range: 1 microsiemen/cm
+	Conductivity Accuracy: +/- 0.5% of Measurement Value +/- 1 Digit at Operating
+		temperature -10 C to +55 C
+	

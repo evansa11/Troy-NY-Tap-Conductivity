@@ -1,0 +1,5 @@
+ConductivityMeasurements_TroyTapWater.geojson MD5 Hash:
+ab6a90ce86f398071dacc170374e1a01
+
+TroyTapConductivity_Metadata.txt MD5 Hash:
+714f3c367241f34b26756b187bb89148
